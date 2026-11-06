@@ -1,0 +1,5 @@
+uploads/students/*
+!uploads/students/.gitkeep
+!uploads/students/.htaccess
+node_modules/
+.DS_Store
