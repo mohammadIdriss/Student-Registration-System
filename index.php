@@ -16,6 +16,19 @@ require_once __DIR__ . '/includes/bootstrap.php';
 <body>
 <?php require __DIR__ . '/includes/header.php'; ?>
 <main>
+    <section class="hero-section py-4">
+    <div class="container">
+        <span class="badge hero-badge rounded-pill px-3 py-2 mb-3 fw-normal">الطلاب المشاركين</span>
+        
+        <div class="d-flex flex-wrap gap-2">
+            <span class="badge bg-light text-dark border p-2 fs-6">Mohammad_298438</span>
+            <span class="badge bg-light text-dark border p-2 fs-6">Mohe_aldeen_292755</span>
+            <span class="badge bg-light text-dark border p-2 fs-6">Bayan_296890</span>
+            <span class="badge bg-light text-dark border p-2 fs-6">Ali_283555</span>
+            <span class="badge bg-light text-dark border p-2 fs-6">Nadia_291909</span>
+        </div>
+    </div>
+</section>
     <?php if (!is_logged_in()): ?>
         <section class="hero-section">
             <div class="container">
